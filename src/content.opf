@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<package version="3.0" xmlns="http://www.idpf.org/2007/opf" unique-identifier="pub-id" xml:lang="en">
+	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
+		<dc:identifier id="pub-id">urn:uuid:55098110-be43-11e4-bb52-0800200c9a66</dc:identifier>
+		<meta refines="#pub-id" property="identifier-type" scheme="xsd:string">uuid</meta>
+		
+		<dc:title id="title">Perpetual Peace</dc:title>
+		<meta refines="#title" property="title-type">main</meta>
+		<meta refines="#title" property="display-seq">1</meta>
+		
+		<dc:title id="subtitle">A Philosophical Sketch</dc:title>
+		<meta refines="#subtitle" property="title-type">subtitle</meta>
+		<meta refines="#subtitle" property="display-seq">2</meta>
+		<meta refines="#subtitle" property="file-as">Philosophical Sketch, A</meta>
+		
+		<dc:creator id="author">Immanuel Kant</dc:creator>
+		<meta refines="#author" property="file-as">Kant, Immanuel</meta>
+		<meta refines="#author" property="role" scheme="marc:relators">aut</meta>
+		
+		<dc:contributor id="translator">Mary Campbell Smith</dc:contributor>
+		<meta refines="#translator" property="file-as">Smith, Mary Campbell</meta>
+		<meta refines="#translator" property="role" scheme="marc:relators">trl</meta>
+		
+		<dc:contributor id="editor">Mark A. Gibbs</dc:contributor>
+		<meta refines="#editor" property="file-as">Gibbs, Mark A.</meta>
+		<meta refines="#editor" property="role" scheme="marc:relators">edt</meta>
+		
+		<dc:language>en</dc:language>
+		
+		<meta property="dcterms:modified">2015-02-27T00:00:00Z</meta>
+		
+		<dc:date>1917</dc:date>
+		
+		<dc:subject>Philosophy</dc:subject>
+		
+		<meta name="cover" content="image-cover-png"/>
+	</metadata>
+</package>
