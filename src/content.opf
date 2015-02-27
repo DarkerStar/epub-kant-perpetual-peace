@@ -35,4 +35,50 @@
 		
 		<meta name="cover" content="image-cover-png"/>
 	</metadata>
+	<manifest>
+		<item id="cover" href="text/cover.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		
+		<item id="titlepage" href="text/titlepage.xhtml" media-type="application/xhtml+xml"/>
+		
+		<item id="introduction" href="text/introduction.xhtml" media-type="application/xhtml+xml"/>
+		<item id="section-1"    href="text/section-1.xhtml"    media-type="application/xhtml+xml"/>
+		<item id="section-2"    href="text/section-2.xhtml"    media-type="application/xhtml+xml"/>
+		<item id="supplement-1" href="text/supplement-1.xhtml" media-type="application/xhtml+xml"/>
+		<item id="supplement-2" href="text/supplement-2.xhtml" media-type="application/xhtml+xml"/>
+		<item id="appendix-1"   href="text/appendix-1.xhtml"   media-type="application/xhtml+xml"/>
+		<item id="appendix-2"   href="text/appendix-2.xhtml"   media-type="application/xhtml+xml"/>
+		
+		<item id="colophon" href="text/colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
+		
+		<item id="style" href="style/style.css" media-type="text/css"/>
+		
+		<item id="image-cover-png" href="images/cover.png" media-type="image/png"                             />
+		<item id="image-cover"     href="images/cover.svg" media-type="image/svg+xml" properties="cover-image"/>
+		
+		<item id="image-licence-pd"  href="images/publicdomain.svg" media-type="image/svg+xml"/>
+		<item id="image-licence-cc0" href="images/cc-zero.svg"      media-type="image/svg+xml"/>
+		
+		<item id="toc" href="toc.xhtml" media-type="application/xhtml+xml"    properties="nav"/>
+		<item id="ncx" href="toc.ncx"   media-type="application/x-dtbncx+xml"                 />
+	</manifest>
+	<spine toc="ncx">
+		<itemref idref="cover"        linear="no"/>
+		<itemref idref="titlepage"               />
+		<itemref idref="toc"                     />
+		<itemref idref="introduction"            />
+		<itemref idref="section-1"               />
+		<itemref idref="section-2"               />
+		<itemref idref="supplement-1"            />
+		<itemref idref="supplement-2"            />
+		<itemref idref="appendix-1"              />
+		<itemref idref="appendix-2"              />
+		<itemref idref="colophon"                />
+	</spine>
+	<guide>
+		<reference type="cover"      title="Cover"             href="text/cover.xhtml"       />
+		<reference type="title-page" title="Title page"        href="text/titlepage.xhtml"   />
+		<reference type="toc"        title="Table of contents" href="toc.xhtml"              />
+		<reference type="text"       title="Perpetual Peace"   href="text/introduction.xhtml"/>
+		<reference type="colophon"   title="Colohpon"          href="text/colophon.xhtml"    />
+	</guide>
 </package>
