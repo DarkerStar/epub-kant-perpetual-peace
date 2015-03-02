@@ -1,0 +1,135 @@
+<?xml version="1.0"?>
+<ncx xmlns="http://www.daisy.org/z3986/2005/ncx/" version="2005-1">
+	<head>
+		<meta name="dtb:uid"   content="urn:uuid:55098110-be43-11e4-bb52-0800200c9a66"/>
+		<meta name="dtb:depth" content="3"/>
+	</head>
+	<docTitle>
+		<text>Perpetual Peace</text>
+	</docTitle>
+	<docAuthor>
+		<text>Immanuel Kant</text>
+	</docAuthor>
+	<navMap>
+		<navPoint id="perpetual-peace">
+			<navLabel>
+				<text>Introduction</text>
+			</navLabel>
+			<content src="text/introduction.xhtml"/>
+			<navPoint id="section-1">
+				<navLabel>
+					<text>First section: Containing the preliminary articles for perpetual peace among states</text>
+				</navLabel>
+				<content src="text/section-1.xhtml"/>
+				<navPoint id="section-1-article-1">
+					<navLabel>
+						<text>Article 1: No treaty of peace shall be regarded as valid, if made with the secret reservation of material for a future war</text>
+					</navLabel>
+					<content src="text/section-1.xhtml#article-1"/>
+				</navPoint>
+				<navPoint id="section-1-article-2">
+					<navLabel>
+						<text>Article 2: No state having an independent existence—whether it be great or small—shall be acquired by another through inheritance, exchange, purchase or donation</text>
+					</navLabel>
+					<content src="text/section-1.xhtml#article-2"/>
+				</navPoint>
+				<navPoint id="section-1-article-3">
+					<navLabel>
+						<text>Article 3: Standing armies (miles perpetuus) shall be abolished in course of time</text>
+					</navLabel>
+					<content src="text/section-1.xhtml#article-3"/>
+				</navPoint>
+				<navPoint id="section-1-article-4">
+					<navLabel>
+						<text>Article 4: No national debts shall be contracted in connection with the external affairs of the state</text>
+					</navLabel>
+					<content src="text/section-1.xhtml#article-4"/>
+				</navPoint>
+				<navPoint id="section-1-article-5">
+					<navLabel>
+						<text>Article 5: No state shall violently interfere with the constitution and administration of another</text>
+					</navLabel>
+					<content src="text/section-1.xhtml#article-5"/>
+				</navPoint>
+				<navPoint id="section-1-article-6">
+					<navLabel>
+						<text>Article 6: No state at war with another shall countenance such modes of hostility as would make mutual confidence impossible in a subsequent state of peace: such are the employment of assassins (percussores) or of poisoners (venefici), breaches of capitulation, the instigating and making use of treachery (perduellio) in the hostile state</text>
+					</navLabel>
+					<content src="text/section-1.xhtml#article-6"/>
+				</navPoint>
+				<navPoint id="section-1-conclusion">
+					<navLabel>
+						<text>Conclusion</text>
+					</navLabel>
+					<content src="text/section-1.xhtml#conclusion"/>
+				</navPoint>
+			</navPoint>
+			<navPoint id="section-2">
+				<navLabel>
+					<text>Second section: Containing the definitive articles for perpetual peace among states</text>
+				</navLabel>
+				<content src="text/section-2.xhtml"/>
+				<navPoint id="section-2-introduction">
+					<navLabel>
+						<text>Introduction</text>
+					</navLabel>
+					<content src="text/section-2.xhtml#introduction"/>
+				</navPoint>
+				<navPoint id="section-2-article-1">
+					<navLabel>
+						<text>Article Ⅰ: The civil constitution of each state shall be republican</text>
+					</navLabel>
+					<content src="text/section-2.xhtml#article-1"/>
+				</navPoint>
+				<navPoint id="section-2-article-2">
+					<navLabel>
+						<text>Article ⅠⅠ: The law of nations shall be founded on a federation of free states</text>
+					</navLabel>
+					<content src="text/section-2.xhtml#article-2"/>
+				</navPoint>
+				<navPoint id="section-2-article-3">
+					<navLabel>
+						<text>Article ⅠⅠⅠ: The rights of men, as citizens of the world, shall be limited to the conditions of universal hospitality</text>
+					</navLabel>
+					<content src="text/section-2.xhtml#article-3"/>
+				</navPoint>
+			</navPoint>
+		</navPoint>
+		<navPoint id="supplements">
+			<navLabel>
+				<text>Supplements</text>
+			</navLabel>
+			<content src="text/supplement-1.xhtml"/>
+			<navPoint id="supplement-1">
+				<navLabel>
+					<text>First supplement: Concerning the guarantee of perpetual peace</text>
+				</navLabel>
+				<content src="text/supplement-1.xhtml"/>
+			</navPoint>
+			<navPoint id="supplement-2">
+				<navLabel>
+					<text>Second supplement: A secret article for perpetual peace</text>
+				</navLabel>
+				<content src="text/supplement-2.xhtml"/>
+			</navPoint>
+		</navPoint>
+		<navPoint id="appendices">
+			<navLabel>
+				<text>Appendices</text>
+			</navLabel>
+			<content src="text/appendix-1.xhtml"/>
+			<navPoint id="appendix-1">
+				<navLabel>
+					<text>Appendix Ⅰ: On the disagreement between morals and politics with reference to perpetual peace</text>
+				</navLabel>
+				<content src="text/appendix-1.xhtml"/>
+			</navPoint>
+			<navPoint id="appendix-2">
+				<navLabel>
+					<text>Appendix ⅠⅠ: Concerning the harmony of politics with morals according to the transcendental idea of public right</text>
+				</navLabel>
+				<content src="text/appendix-2.xhtml"/>
+			</navPoint>
+		</navPoint>
+	</navMap>
+</ncx>
