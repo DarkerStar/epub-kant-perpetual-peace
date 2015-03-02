@@ -1,0 +1,275 @@
+@namespace epub url(http://www.idpf.org/2007/ops);
+
+body {
+  font-family:  Palatino, Georgia, 'Bookman Old Style', Bookman, serif;
+  line-height: 1.5;margin: 2.5em 5em;
+  text-align: justify;
+}
+
+h1, h2, h3 {
+  letter-spacing: 0.25em;
+  font-size: 1rem;
+  font-weight: normal;
+  margin: 7.5rem 0 1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+p {
+  margin: 0;
+  text-indent: 1.5em;
+}
+
+p.no-indent {
+  text-indent: 0em;
+}
+
+blockquote {
+  margin: 0 2.5rem;
+}
+
+blockquote::before { content: '“'; }
+blockquote::after  { content: '”'; }
+
+hr {
+  border: none;
+  color: black;
+  margin: 1rem auto 2.5rem;
+  text-align: center;
+}
+
+hr:before {
+  content: "⁕⁕⁕";
+  letter-spacing: 2rem;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover { color: red; }
+
+abbr {
+  border: none;
+  text-decoration: none;
+}
+
+*:not(:lang(en)) {
+  font-style: italic;
+}
+
+.text {
+  display: none;
+}
+
+body > header {
+  display: none;
+}
+
+nav[epub|type~=toc] ol {
+  list-style: none;
+}
+
+nav[epub|type~=toc] li {
+  margin: 0.25rem 0;
+}
+
+nav[epub|type~=toc] a::after {
+  content: '.';
+}
+
+nav[epub|type~=toc] > ol:first-of-type > li:first-child > span:first-child {
+  display: none;
+}
+
+nav[epub|type~=toc] > ol:first-of-type,
+nav[epub|type~=toc] > ol:first-of-type > li:first-child > ol {
+  padding: 0;
+}
+
+nav[epub|type~=toc] .ordinal-and-label::after {
+  content: '.—';
+}
+
+#opening-quote {
+  margin: 7.5rem 0 1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+section.section > h2 .ordinal-and-label {
+  display: block;
+  font-style: italic;
+}
+
+section.section > h2 [epub|type~=title] {
+  display: block;
+  font-size: 0.75rem;
+  letter-spacing: normal;
+  margin: 3rem 0;
+}
+
+section.article > h3 {
+  font-size: 1rem;
+  letter-spacing: normal;
+  margin: 1rem 0;
+  text-align: justify;
+  text-indent: 1.5rem;
+}
+
+section.article > h3 [epub|type=label] {
+  display: none;
+}
+
+section.article > h3 [epub|type=ordinal]::after {
+  content: '.—';
+}
+
+section.article > h3 [epub|type~=title] {
+  text-transform: none;
+}
+
+section.article > h3 [epub|type~=title]::before { content: '“'; }
+section.article > h3 [epub|type~=title]::after  { content: '.”'; }
+
+section.definitive.article > h3 {
+  text-align: center;
+  text-indent: 0;
+}
+
+section.definitive.article > h3 [epub|type~=subtitle] {
+  display: block;
+  font-size: 0.75rem;
+  margin: 3rem 0 1rem;
+}
+
+section.supplement h1 .ordinal-and-label,
+section.supplement h2 .ordinal-and-label,
+section.appendix h1 .ordinal-and-label {
+  display: block;
+  font-size: 1.25em;
+  margin: 3rem 0 1rem;
+}
+
+section.supplement h1 [epub|type~=title],
+section.supplement h2 [epub|type~=title],
+section.appendix h1 [epub|type~=title] {
+  display: block;
+  font-size: 0.75em;
+  letter-spacing: normal;
+  margin: 1rem 0;
+}
+
+blockquote.bible::before { content: none; }
+blockquote.bible::after  { content: none; }
+blockquote.bible ol {
+  margin: 0;
+}
+
+ol.numbered-paragraphs {
+  counter-reset: counter;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ol.numbered-paragraphs > li > p:first-child {
+  counter-increment: counter;
+}
+
+ol.numbered-paragraphs > li > p:first-child::before {
+  content: counter(counter) '. ';
+  display: inline-block;
+  min-width: 1.5em;
+  text-indent: 0;
+}
+
+dl.numbered-points {
+  counter-reset: dl-counter;
+  padding: 0;
+  margin: 0;
+}
+
+dl.numbered-points > dt {
+  counter-increment: dl-counter;
+  float: left;
+  font-weight: bold;
+  padding: 0;
+  margin: 0 0.5em 0 1.5em;
+}
+
+dl.numbered-points > dt::before {
+  content: counter(dl-counter) '. ';
+  font-style: normal;
+  font-weight: normal;
+}
+
+dl.numbered-points.with-dash > dt::before {
+  content: counter(dl-counter) '.—';
+}
+
+dl.numbered-points > dt::after  { content: '.'; }
+dl.numbered-points > dt::after  { content: '.'; }
+
+dl.numbered-points > dd {
+  margin: 0;
+  padding: 0;
+}
+
+dl.numbered-points > dd > p:first-child {
+  text-indent: 0;
+}
+
+ol.lettered-paragraphs {
+  counter-reset: counter;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ol.lettered-paragraphs > li > p:first-child {
+  counter-increment: counter;
+}
+
+ol.lettered-paragraphs > li > p:first-child::before {
+  content: counter(counter, lower-latin) '. ';
+  display: inline-block;
+  font-style: italic;
+  min-width: 1.5em;
+  text-indent: 0;
+}
+
+a[epub|type=noteref] {
+  vertical-align: super;
+  line-height: 0;
+  font-size: smaller;
+}
+
+a[epub|type=noteref]::before { content: '['; }
+a[epub|type=noteref]::after  { content: ']'; }
+
+aside[epub|type=footnote] {
+  font-size: 85%;
+  margin: 1rem 0;
+}
+
+aside[epub|type=footnote] .footnote-header {
+  float: left;
+  margin-left: -1.5em;
+}
+
+aside[epub|type=footnote] .footnote-header a::before { content: '['; }
+aside[epub|type=footnote] .footnote-header a::after  { content: ']↑'; }
+
+#colophon .licence {
+  margin: 2rem 0;
+  overflow: auto;
+  padding-left: 6.25rem;
+  text-indent: 0;
+}
+
+#colophon .licence .mark {
+  float: left;
+  margin-left: -6.25rem;
+}
