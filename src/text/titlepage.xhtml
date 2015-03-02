@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en" xml:lang="en">
+<head>
+	<meta charset="utf-8"/>
+	
+	<title>Title page • Perpetual Peace</title>
+	
+	<style><![CDATA[
+    @namespace epub url(http://www.idpf.org/2007/ops);
+		
+    html, body, [epub|type~=titlepage] {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      margin: 0;
+      padding: 0;
+      font-family:  Palatino, Georgia, 'Bookman Old Style', Bookman, serif;
+      font-size: 16px;
+      line-height: 1.5;
+      text-align: center;
+    }
+    
+    [epub|type~=covertitle] {
+      font-weight: normal;
+      font-variant: small-caps;
+      margin: 2.5rem 2.5rem 5rem;
+    }
+    
+    [epub|type~=title] {
+      display: block;
+      font-size: 3rem;
+    }
+    
+    [epub|type~=subtitle] {
+      display: block;
+    }
+    
+    #author {
+      font-size: 1.5rem;
+      margin: 2.5rem 2.5rem;
+    }
+		
+    .text { display: none; }
+	]]></style>
+</head>
+<body>
+<section epub:type="titlepage">
+  <h1 epub:type="fulltitle covertitle">
+		<span epub:type="title">Perpetual Peace</span><span class="text">: </span>
+		<span epub:type="subtitle">A Philosophical Essay</span>
+	</h1>
+	<p id="author"><span class="text">by </span>Immanuel Kant</p>
+</section>
+</body>
+</html>
