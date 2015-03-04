@@ -1,4 +1,4 @@
-XXXX-XX-XX  Mark A. Gibbs  <indi.in.the.wired@gmail.com>
+2015-03-04  Mark A. Gibbs  <indi.in.the.wired@gmail.com>
      
      * COPYING: New project copyright documentaion.
      
@@ -15,6 +15,40 @@ XXXX-XX-XX  Mark A. Gibbs  <indi.in.the.wired@gmail.com>
      * ChangeLog: New project change log.
      
      * NEWS: New project history file.
+     
+     * content.opf: New EPUB 3 package document.
+     
+     * src/toc.xhtml: New EPUB 3 navigation document.
+     
+     * src/toc.ncx: New EPUB 2 navigation document.
+     
+     * src/text/cover.xhtml: New EPUB 3 content document.
+     
+     * text/titlepage.xhtml: New EPUB 3 content document.
+     
+     * text/introduction.xhtml: New EPUB 3 content document.
+     
+     * text/section-1.xhtml: New EPUB 3 content document.
+     
+     * text/section-2.xhtml: New EPUB 3 content document.
+     
+     * text/supplement-1.xhtml: New EPUB 3 content document.
+     
+     * text/supplement-2.xhtml: New EPUB 3 content document.
+     
+     * text/appendix-1.xhtml: New EPUB 3 content document.
+     
+     * text/appendix-2.xhtml: New EPUB 3 content document.
+     
+     * text/colophon.xhtml: New EPUB 3 content document.
+     
+     * images/cover.svg: New EPUB 3 content document.
+     
+     * images/cc-zero.svg: New EPUB 3 content document.
+     
+     * images/publicdomain.svg: New EPUB 3 content document.
+     
+     * style/style.css: New EPUB 3 content document.
 
 
 # Copyright 2015 Mark A. Gibbs

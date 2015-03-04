@@ -14,7 +14,13 @@ Mark A. Gibbs                                      <indi.in.the.wired@gmail.com>
 --------------------------------------------------------------------------------
 
   created      -> AUTHORS, ChangeLog, COPYING, INSTALL, NEWS, README, README.md,
-                  THANKS
+                  THANKS, content.opf, toc.xhtml, toc.ncx, text/titlepage.xhtml,
+                  text/cover.xhtml, text/introduction.xhtml,
+                  text/colophon.xhtml, text/section-1.xhtml,
+                  text/section-2.xhtml, text/supplement-1.xhtml,
+                  text/supplement-2.xhtml, text/appendix-1.xhtml,
+                  text/appendix-2.xhtml, images/cc-zero.svg, images/cover.svg,
+                  images/publicdomain.svg, style/style.css
 
 
 ################################################################################

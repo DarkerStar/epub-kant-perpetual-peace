@@ -2,6 +2,7 @@
 
 body {
   font-family:  Palatino, Georgia, 'Bookman Old Style', Bookman, serif;
+  font-style: normal;
   line-height: 1.5;margin: 2.5em 5em;
   text-align: justify;
 }

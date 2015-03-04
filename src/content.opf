@@ -25,13 +25,25 @@
 		<meta refines="#editor" property="file-as">Gibbs, Mark A.</meta>
 		<meta refines="#editor" property="role" scheme="marc:relators">edt</meta>
 		
+		<dc:description>At the end of the 18th century, looking back on the astounding success of the enlightenment and the social advances it brought, philosophers began to seriously consider that even their wildest dreams for the future were not impossible, and thus they began to lay down the groundwork for one of the grandest dreams of all: a world without war. Kant had already established himself as one of the most influential philosophers of the time in the fields of aesthetics, epistemology, metaphysics, and ethics by 1795, when he penned this essay describing the possibility, or rather inevitability, of perpetual peace between nations. The dream of perpetual peace faded during WWⅠⅠ, but interest has recently revived, and Kant’s essay is once again being widely cited, two centuries later.</dc:description>
+		
 		<dc:language>en</dc:language>
 		
-		<meta property="dcterms:modified">2015-02-27T00:00:00Z</meta>
+		<meta property="dcterms:dateCopyrighted">1917</meta>
 		
-		<dc:date>1917</dc:date>
+		<dc:publisher>Indi’s ebook collection</dc:publisher>
+		<dc:date>2015-03-04</dc:date>
 		
+		<!-- BISAC subject headings -->
 		<dc:subject>Philosophy</dc:subject>
+		<dc:subject><!-- PHILOSOPHY / -->Political</dc:subject>
+		<dc:subject><!-- PHILOSOPHY / -->Social</dc:subject>
+		<dc:subject>Political Science</dc:subject>
+		<dc:subject><!-- POLITICAL SCIENCE / -->Geopolitics</dc:subject>
+		<dc:subject><!-- POLITICAL SCIENCE / International Relations / General -->International Relations</dc:subject>
+		<dc:subject><!-- POLITICAL SCIENCE / -->Peace</dc:subject>
+		
+		<meta property="dcterms:modified">2015-03-04T00:00:00Z</meta>
 		
 		<meta name="cover" content="image-cover-png"/>
 	</metadata>
